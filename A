@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centered Image</title>
+  <style>
+    .image-container {
+      text-align: center;
+    }
+    .image-container img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    @media only screen and (min-width: 768px) {
+      
+      .image-container img {
+        max-width: 80%;
+      }
+    }
+    @media only screen and (min-width: 992px) {
+      .image-container img {
+        max-width: 60%;
+      }
+    }
+    @media only screen and (min-width: 1200px) {
+      .image-container img {
+        max-width: 50%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="Kind of love you recieve at Abhivyakti.png" alt="">
+</div>
+
+</body>
+</html>
